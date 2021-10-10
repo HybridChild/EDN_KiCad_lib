@@ -1,0 +1,38 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 302-S201
+D CONN HEADER VERT 20POS 2.54MM
+F http://www.on-shore.com/wp-content/uploads/2018/04/302-SXX1.pdf
+$ENDCMP
+#
+$CMP 74HC03
+D Quad 2-input NAND open drain output
+K CMOS Nand2 OpenDrain
+$ENDCMP
+#
+$CMP D2n_V23105
+D General purpose Relay DPDT 5VDC
+K Relay DPDT
+$ENDCMP
+#
+$CMP SP610281
+D 3x7-segment, Common Anode
+$ENDCMP
+#
+$CMP SSM2135
+D OPAmp symbol for simulation only
+K simulation
+F ~
+$ENDCMP
+#
+$CMP ZVN3306A
+D MOSFET,  N-Channel, 60V Vds, 270mA Id, E-Line
+K MOSFET N-Channel
+$ENDCMP
+#
+$CMP ZVP3306A
+D MOSFET,  P-Channel, -60V Vds, -160mA Id, E-Line
+K P-Channel MOSFET
+$ENDCMP
+#
+#End Doc Library
